@@ -1,0 +1,38 @@
+.gambar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+div.par p {
+    background-color: rgb(201, 218, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 128, 85);
+}
+
+.gambar img {
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out;
+}
+
+div.ending {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: rgb(73, 73, 73);
+}
+
+div.ending p {
+    background-color: rgb(201, 218, 255);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 128, 85);
+}
