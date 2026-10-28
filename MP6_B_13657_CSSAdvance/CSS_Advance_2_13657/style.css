@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf3ff;
+    color: #333333;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #285f9e;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #285f9e;
+    background-color: #d4e7ff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+form {
+    background-color: white;
+    max-width: 850px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid #b8d3f0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid #b8d3f0;
+    padding: 10px;
+}
+
+td.label {
+    width: 32%;
+    background-color: #f2f7ff;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    outline: 1px solid #528bd0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    max-width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #367fc4;
+    color: white;
+    padding: 10px 25px;
+    border: 1px solid #2868a5;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #285f9e;
+}
+
+.tengah {
+    text-align: center;
+}
