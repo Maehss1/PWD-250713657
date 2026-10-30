@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+
+<head>
+    <title>If-else Internal: Ongkos Kirim</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript">
+        var iBerat;
+        var sEkspres;
+
+        iBerat = prompt("Masukan Berat paket(Kg).", 0);
+        sEkspres = prompt("Apakah paket dikirim secara ekspres? (Y/T)", "T");
+
+        if (iBerat > 5) {
+            if (sEkspres == "Y") {
+                alert("Ongkir Rp 50.000 (Ekspres)");
+            } else {
+                alert("Ongkir Rp 30.000 (Reguler)");
+            }
+        } else {
+            if (sEkspres == "Y") {
+                alert("Ongkir Rp 25.000 (Ekspres)");
+            } else {
+                alert("Ongkir Rp 12.000 (Reguler)");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>If-else Internal: Ongkos Kirim</h1>
+    <P>Reload untuk coba lagi</P>
+</body>
